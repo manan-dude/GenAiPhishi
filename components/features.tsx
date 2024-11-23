@@ -14,7 +14,7 @@ export default function Features() {
   const [loading, setLoading] = useState(false);
   const [viewOutput, setViewOutput] = useState(false); // Track view state
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e:any) => {
     e.preventDefault();
     setLoading(true);
     setResponse("");
